@@ -1,0 +1,56 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    background-color: gray;
+}
+
+header nav {
+    list-style-type: none;
+	background-color: #000;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 2em 2em 2em 2em;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#wrapper {
+    clear: both;
+}
+
+.fullpage-banner {
+    background-image: linear-gradient(
+		rgba(0, 0, 0, 1),
+    	rgba(0, 0, 0, 0.05),
+    	rgba(0, 0, 0, 0),
+    	rgba(0, 0, 0, 0),
+    	rgba(0, 0, 0, 0)
+	), url("../images/low-poly-banner-dev.svg");
+	
+	height: 100vh;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.hero-banner-textbox {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    color: #fff;
+}
+
+
+
