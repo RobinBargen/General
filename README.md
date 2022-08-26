@@ -1,2 +1,2 @@
 # General
-Demo of clickable table using HTML, CSS and JS.
+A multipurpose repository.
